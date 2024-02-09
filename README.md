@@ -17,3 +17,12 @@ StorySpinner is a cutting-edge AI tool that breathes life into your web links, t
 Whether you're a professional in the corporate world or a creative storyteller, StorySpinner opens up new frontiers for interactive and engaging content creation. Its ability to seamlessly weave together diverse web content into a cohesive and immersive narrative makes it an invaluable asset for a wide range of industries and creative endeavors.
 
 Experience the future of storytelling with StorySpinner and embark on a journey of AI-powered narrative exploration.
+
+
+## Installation
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Create a `.env` file and set your environment variables.
+
+## Usage
+1. Run the `main.py` script to launch the application.
