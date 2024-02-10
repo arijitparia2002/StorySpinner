@@ -22,7 +22,18 @@ Experience the future of storytelling with StorySpinner and embark on a journey 
 ## Installation
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Create a `.env` file and set your environment variables.
+3. Create a `.env` file in your project's root directory and add your environment variables as given below.
+    
+    ```bash
+    GOOGLE_CLOUD_PROJECT_ID = your_project_id
+    GOOGLE_CLOUD_API_KEY = your_api_key
+    ```
+
 
 ## Usage
-1. Run the `main.py` script to launch the application.
+1. Run the script to launch the application.
+
+    ```bash
+    cd src 
+    python main.py
+    ```
