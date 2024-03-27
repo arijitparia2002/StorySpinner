@@ -23,6 +23,10 @@ Experience the future of storytelling with StorySpinner and embark on a journey 
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
 3. Create a `.env` file and set your environment variables.
+4. Run this to authenticate with Google Cloud: 
+``` 
+gcloud auth application-default login
+```
 
 ## Usage
 1. Run the `main.py` script to launch the application.
