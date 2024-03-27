@@ -82,4 +82,3 @@ def get_response(input_text, langchain_instance):
   }
   response = llm.predict(prompt, **parameters)
   return {"answer": response}
-
