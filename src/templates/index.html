@@ -1,22 +1,19 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend App</title>
+    <title>YouTube Video QA</title>
 </head>
 <body>
-    <h1>Welcome to the Frontend App!</h1>
-    <form action="/process" method="post">
-        <label for="youtube_link">Enter YouTube link:</label>
-        <input type="text" name="youtube_link" id="youtube_link" required>
+    <h1>YouTube Video Question Answering</h1>
+    <form action="/answer" method="post">
+        <label for="url">YouTube URL:</label>
+        <input type="text" id="url" name="url" required>
         <br>
-        <label for="input_text">Enter your question:</label>
-        <input type="text" name="input_text" id="input_text" required>
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" rows="5" required></textarea>
         <br>
-        <button type="submit">Submit</button>
+        <button type="submit">Ask</button>
     </form>
 </body>
 </html>

@@ -4,3 +4,4 @@ chromadb
 pytube
 youtube-transcript-api
 Flask
+langchain-google-vertexai
