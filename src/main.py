@@ -21,7 +21,9 @@ def answer():
     url = request.form["url"]
     question = request.form["question"]
     answer = sm_ask(url, question)  # Call sm_ask function
+    print("The response is", answer)
     return render_template("result.html", answer=answer["answer"])
 
 if __name__ == "__main__":
+
     app.run(debug=True)
