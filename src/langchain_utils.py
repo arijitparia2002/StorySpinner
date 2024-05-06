@@ -1,11 +1,11 @@
 from typing import List
-from langchain.document_loaders import TextLoader, YoutubeLoader
+from langchain_community.document_loaders import TextLoader, YoutubeLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA
-from langchain.llms import VertexAI
+from langchain_community.llms import VertexAI
 from vertexai.language_models import TextEmbeddingInput, TextEmbeddingModel
-from langchain.embeddings import VertexAIEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.embeddings import VertexAIEmbeddings
+from langchain_community.vectorstores import Chroma
 
 # Initialize the Vertex AI language model
 model_name = "text-bison@001"
