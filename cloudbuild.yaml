@@ -9,4 +9,6 @@ steps:
     pip install --upgrade pip
     pip install -r requirements.txt
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$PROJECT_ID/my-image', '.']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/video-llm/my-image', '.']  # Update the repository name here
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/video-llm/my-image']
